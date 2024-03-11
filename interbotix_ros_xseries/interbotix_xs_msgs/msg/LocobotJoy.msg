@@ -34,7 +34,8 @@ int8 EE_ROLL_CCW = 13
 int8 EE_ROLL_CW = 14
 int8 EE_PITCH_UP = 15
 int8 EE_PITCH_DOWN = 16
-
+int8 EE_YAW_CCW = 29
+int8 EE_YAW_CW = 30
 #########################################################################################################
 
 # Control the motion of independent joints on the Arm or send predefined robot poses
@@ -82,6 +83,7 @@ int8 ee_y_cmd
 int8 ee_z_cmd
 int8 ee_roll_cmd
 int8 ee_pitch_cmd
+int8 ee_yaw_cmd
 
 # Independent Joint/Pose Control
 int8 waist_cmd
